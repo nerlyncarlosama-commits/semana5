@@ -1,0 +1,13 @@
+Pruebas realizadas con el servidor Node.js ejecutándose en http://localhost:3000:
+
+1. http://localhost:3000
+   - Respuesta: "Servidor activo"
+   - Explicación: Es la ruta raíz. Confirma que el servidor está funcionando.
+
+2. http://localhost:3000/saludo
+   - Respuesta: "Hola comunidad"
+   - Explicación: Ruta fija que devuelve un saludo genérico a la comunidad.
+
+3. http://localhost:3000/mensaje/juan
+   - Respuesta: "Hola juan"
+   - Explicación: Ruta con parámetro ":nombre". Toma el valor de la URL (juan) y lo usa para personalizar el mensaje.

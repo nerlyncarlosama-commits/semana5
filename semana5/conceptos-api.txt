@@ -1,0 +1,12 @@
+¿Qué hace la ruta POST /reporte?
+- Es una ruta que escucha solicitudes HTTP POST en la dirección /reporte.
+- Espera recibir un objeto JSON con una propiedad "mensaje".
+- Extrae el valor de req.body.mensaje y responde con un objeto JSON que contiene:
+  - estado: "Reporte recibido"
+  - mensaje: el mismo mensaje enviado por el cliente.
+
+Para qué podría servir en una aplicación comunitaria:
+- Permitiría a los miembros de la comunidad enviar reportes de problemas (como baches, fugas de agua, alumbrado público dañado) de forma estructurada.
+- También serviría para recibir alertas ciudadanas (incendios, accidentes, inseguridad).
+- Facilita la centralización de información, ya que los datos se pueden almacenar en una base de datos y ser consultados luego por administradores o vecinos.
+- Ayuda a mantener un registro histórico de los reportes para dar seguimiento.
